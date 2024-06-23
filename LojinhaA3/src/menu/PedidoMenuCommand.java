@@ -2,15 +2,14 @@ package menu;
 
 import dao.ClienteDAO;
 import javax.swing.JOptionPane;
-import model.Categoria;
 import model.Pedido;
-import model.Produto;
 
 public class PedidoMenuCommand extends MenuCommand{
 
     public PedidoMenuCommand(MenuHandler menu) {
         super(menu);
     }
+    
     public void execute() {
         super.execute();
         
@@ -48,7 +47,7 @@ public class PedidoMenuCommand extends MenuCommand{
                         }else{
                             break;
                         }
-            case 3: Pedido.listarPedidos(pedidos);
+            case 3: Pedido.visualizarPedido(pedidos);
                     break;
             case 4: Pedido.listarPedidos(pedidos);
                     break;

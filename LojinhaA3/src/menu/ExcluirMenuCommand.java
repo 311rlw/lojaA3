@@ -1,9 +1,5 @@
 package menu;
 
-import dao.CategoriaDAO;
-import dao.CidadeDAO;
-import dao.ClienteDAO;
-import dao.ProdutoDAO;
 import model.Categoria;
 import model.Cidade;
 import model.Cliente;

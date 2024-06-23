@@ -3,6 +3,8 @@ package menu;
 import java.util.HashMap;
 import java.util.Map;
 
+
+// classe que cuida da criação de menus
 public class MenuHandler {
     
     private Map<Integer, MenuCommand> menuMap = new HashMap<Integer, MenuCommand>();

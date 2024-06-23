@@ -35,6 +35,7 @@ public abstract class MenuCommand {
         pedidos = new ArrayList<Pedido>();
     }
 
+    //execução e seleção dos menus
     int opcao = -1;
     public void execute(){
         String opcaoDigitada = JOptionPane.showInputDialog(this.mostrarTexto());
@@ -49,5 +50,6 @@ public abstract class MenuCommand {
         
     }
     
+    // texto que sera mostrado na tela ao escolher o menu
     public abstract String mostrarTexto();
 }
